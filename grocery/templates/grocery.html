@@ -21,8 +21,10 @@
 
     <div >
     {% for i in x %}
+    {{i.Title}}
 
-          <p>{{i.Title}}</p>
+          <input type="checkbox" id={{i.Title}} name={{i.Title}} value={{i.Title}}>
+          <br>
     
         
     {%endfor%}
